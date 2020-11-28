@@ -1,0 +1,79 @@
+* {
+  margin: auto;
+}
+
+body {
+  background-color: gray;
+}
+.globalContainer {
+  position: relative;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.topContainer {
+  width: 400px;
+  height: 400px;
+  background-color: aqua;
+  border-radius: 20px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnNGeGPwQtAKopb3edO3qv5Z1aQeOf0baPRw&usqp=CAU);
+  background-size: 100%;
+  z-index: 3;
+}
+
+.middleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  position: relative;
+  bottom: 10px;
+  height: 100px;
+  width: 300px;
+  background-color: azure;
+  border-radius: 10px;
+  z-index: 2;
+}
+.middleContainer > div {
+  padding: 15px;
+}
+
+.bottomContainer {
+  position: relative;
+  bottom: 20px;
+  height: 70px;
+  width: 200px;
+  background-color: rgb(255, 45, 160);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.bottomContainer > p {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 30px;
+}
+.shots {
+  text-align: center;
+}
+.followers {
+  text-align: center;
+}
+.projects {
+  text-align: center;
+}
+
+.name {
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 300px;
+}
+.profession {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
