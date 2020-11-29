@@ -1,0 +1,31 @@
+thead {
+  background-color: darkslategrey;
+  color: white;
+}
+caption {
+  font-size: 20px;
+}
+tfoot {
+  background-color: gray;
+}
+
+table,
+th,
+td {
+  padding: 10px;
+  border: 2px solid darkslategray;
+  border-collapse: collapse;
+}
+
+td:nth-child(2n + 1):not(th) {
+  background-color: darkturquoise;
+}
+tr:nth-child(2n) :not(th) {
+  background-color: paleturquoise;
+}
+td:nth-child(2n) {
+  background-color: paleturquoise;
+}
+tr + th:nth-child(2n) :not(th) {
+  background-color: azure;
+}
